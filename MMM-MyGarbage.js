@@ -88,8 +88,12 @@ Module.register('MMM-MyGarbage', {
         svg.setAttributeNS(null, "style", "fill: " + color);
         break;
     }
+
+    // Set icon id
+    var iconId = ( color == 'blue' ) ? 'bag_icon.svg#bag' : 'garbage_icons.svg#bin';
+
     var use = document.createElementNS('http://www.w3.org/2000/svg', "use");
-    use.setAttributeNS("http://www.w3.org/1999/xlink", "href", this.file("garbage_icons.svg#bin"));
+    use.setAttributeNS("http://www.w3.org/1999/xlink", "href", this.file(iconId));
     svg.appendChild(use);
     return (svg);
   },
