@@ -4,7 +4,7 @@
   "description": "MagicMirror module for garbage pickup schedule",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/htilburgs/MMM-MyGarbage.git"
+    "url": "git+https://github.com/shishir-insane/MMM-MyGarbage.git"
   },
   "main": "MMM-MyGarbage.js",
   "scripts": {
